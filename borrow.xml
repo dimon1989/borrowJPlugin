@@ -1,13 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <extension version="3.1" type="plugin" group="user" >
-	<name>Borrow Plugin</name>
+	<name>PLG_USER_BORROW</name>
 	<author>Joomla! Project</author>
 	<version>3.1.0</version>
-	<description>Plugin displaying borrowed books in the user's profile</description>
+	<description>PLG_USER_BORROW_XML_DESCRIPTION</description>
 	<files>
 		<filename plugin="borrow">borrow.php</filename>
 		<filename>index.html</filename>
 		<folder>assets</folder>
 		<folder>tmpl</folder>
 	</files>
+	<languages>
+		<language tag="en-GB">en-GB.plg_user_borrow.ini</language>
+		<language tag="en-GB">en-GB.plg_user_borrow.sys.ini</language>
+	</languages>
 </extension>

@@ -10,6 +10,8 @@ class plgUserBorrow extends JPlugin
 	 */
 	 function onContentPrepareData($context, $data)
     {
+        $lang = JFactory::getLanguage();
+        $lang->load('plg_user_borrow', JPATH_ADMINISTRATOR);
         $app   = JFactory::getApplication();
         $view  = $app->input->get('view');
         $layout = JFactory::getApplication()->input->getCmd('layout', 'default');
